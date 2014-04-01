@@ -29,11 +29,11 @@ main screen. */
 These classes allow you to change the colors of the tabs on the left of the screen with
 regards to the extended view. */
 .obrand_verticalTab .obrand_activeMiddle {
-    background-color: #719823;
+    background-color: #00b4ed;
 }
 
 .obrand_verticalTab .obrand_inactiveMiddleLink {
-    color: #719823;
+    color: #666;
 }
 
 /* User portal HeaderView.ui.xml:
@@ -64,7 +64,8 @@ top of the user portal. */
 This class works together with obrand_vertical tab to change the
 colors of the side tab in the extended view */
 .obrand_content {
-    border: 2px solid #719823;
+    border: 2px solid #a7a7a7;
+    margin-top:14px;
 }
 
 /* SideTabWithDetailsView:
@@ -72,7 +73,7 @@ This class allows you to change the colors of menu bar in the extended view */
 .obrand_mainBarPanel {
     padding-top: 7px;
     height: 24px;
-    border-bottom: 2px solid #719823;
+    border-bottom: 2px solid #a7a7a7;
     margin-left: 2px;
     margin-right: 2px;
 }

@@ -1,21 +1,35 @@
 <div>
-  <h2>
-    <span class="obrand_section_header">{portal_title}</span>
-  </h2>
-  <div>
-    <a href="userportal/?locale={userLocale}">{portal_user_portal}</a>
-  </div>
-  <div>
-    <a href="webadmin/?locale={userLocale}">{portal_admin}</a>
-  </div>
-  <div>
-    <a href="services/reports-redirect">{portal_reports}</a>
-  </div>
 
-  <h2>
-    <span class="obrand_section_header">{downloads_title}</span>
-  </h2>
-  <div>
-    <a href="{console_client_resources_url}" target="_blank">{console_client_resources}</a>
-  </div>
+<table cellspacing="100" align="center">
+  <tr>
+
+    <td>
+      <div>
+        <a href="/UserPortal/org.ovirt.engine.ui.userportal.UserPortal/UserPortal.html?locale={userLocale}">
+          <div class="obrand_user">
+          </div>
+        </a>
+      </div>
+    </td>
+
+    <td>
+      <div>
+        <a href="/webadmin/webadmin/WebAdmin.html?locale={userLocale}">
+          <div class="obrand_admin">
+          </div>
+        </a>
+      </div>
+    </td>
+    
+    <td>
+      <div>
+        <a href="/OvirtEngineWeb/ReportsRedirectServlet">
+          <div class="obrand_report">
+          </div>
+        </a>
+      </div>
+    </td>
+
+</tr>
+</table>  
 </div>
