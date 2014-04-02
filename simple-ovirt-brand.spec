@@ -1,8 +1,8 @@
-ovirt_brand_dir=/usr/share/ovirt-engine/branding
+%define ovirt_brand_dir /usr/share/ovirt-engine/branding
 
 Name:          simple.ovirt.brand
 Version:       0.0.1
-Release:        1%{?dist}
+Release:        2%{?dist}
 
 Summary:       oVirt Virtualization UI simple branding 
 Group:         Documentation
@@ -12,6 +12,7 @@ Source:        %{name}-%{version}.tgz
 BuildArch:     noarch
 BuildRoot:     %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 #Requires:      
+Provides:      eayun.brand
 
 %description
 
@@ -36,9 +37,11 @@ ln -s /usr/share/ovirt-engine/branding/simple.ovirt.brand /etc/ovirt-engine/bran
 
 %files
 %defattr(-,root,root,-)
-%doc %{ovirt_brand_dir}
+%{ovirt_brand_dir}/simple.ovirt.brand/*
 
 %changelog
+* Thu Apr 3 2014 Li jiansheng <lijiangsheng1@gmail.com> 0.0.2
+- add EayunOS provider.
 * Mon Jan 6 2014 Li jiansheng <lijiangsheng1@gmail.com> 0.0.1
 - first
 
