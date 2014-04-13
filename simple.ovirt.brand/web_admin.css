@@ -57,3 +57,38 @@ These classes allow you to customize the header at the top of the screen */
     line-height: 2em;
     padding-right: 10px;
 }
+
+.obrand_loginPanelContainer {
+
+    background-image: url(images/login_background.png);
+    width: 1920px;
+    height: 1200px;
+    border: 0px;
+    display: block;
+}
+
+.obrand_loginPopupBackground {
+    background-color: #000;
+    filter:alpha(opacity=60);
+    -moz-opacity:0.6;
+    opacity:0.6;
+    border-radius:15px;
+}
+
+.obrand_formWidget {
+    color: #333333;
+    font-size: 18px;
+    padding: 0 5px;
+    font-family: Verdana,sans-serif;
+    line-height: 30px;
+    text-align: left;
+}
+
+.obrand_localeSelect {
+    padding-right: 15px;
+    text-align: right;
+    color:#00b4ed;
+    font-size: 13px;
+    width: 130px;
+}
+

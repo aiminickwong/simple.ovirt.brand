@@ -99,14 +99,3 @@ popup windows, for instance for creating a new VM */
 	background-color: #82AA32;
 }
 
-
-/* LoginSectionView.ui.xml:*/
-.obrand_LoginImage {
-
-    background-image: url(images/login_background.png);
-    width: 1920px;
-    height: 1200px;
-    border: 0px;
-    display: block;
-}
-
