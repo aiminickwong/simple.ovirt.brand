@@ -20,12 +20,12 @@
 	font-weight: bold;
 }
 
-/*.obrand_left
+.obrand_left
 {
 	background-image: url(images/welcome/logo.png);
 	background-repeat: no-repeat;
 	float: left;
-	height: 73px;
+	height: 0px;
 	width: 820px;
 	margin-top: 0px;
 }
@@ -34,8 +34,8 @@
 {
 	background-image: url(images/welcome/bg_head.gif);
 	background-repeat: repeat-x;
-	height: 73px;
-}*/
+	height: 0px;
+}
 
 .obrand_right
 {
@@ -82,6 +82,9 @@ a:hover
 {
 	font-family: Verdana;
 	font-size: 16px;
+	line-height:0;
+	font-size:0;
+	overflow:hidden;
 }
 
 .obrand_warningMessage
