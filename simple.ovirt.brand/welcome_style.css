@@ -39,16 +39,6 @@
 	height: 0px;
 }
 
-.obrand_right
-{
-	background-image: url(images/welcome/downloads.png);
-	background-repeat: no-repeat;
-	float: right;
-	height: 78px;
-	width: 326px;
-	margin-top: 0px;
-}
-
 .obrand_header_nav
 {
 	padding-top: 22px;
@@ -175,3 +165,9 @@ a:hover
     bottom: 0;
 }
 
+.obrand_template_resource
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
