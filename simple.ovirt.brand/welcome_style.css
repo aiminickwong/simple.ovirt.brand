@@ -155,7 +155,8 @@ a:hover
 	height: 240px;
 	width: 303px;
 	margin-top: 0px;
-	display: none;
+	display: inline;
+	position: relative;
 }
 
 .obrand_template
@@ -170,4 +171,8 @@ a:hover
     position: absolute;
     top: 0;
     right: 0;
+}
+
+table {
+  border-spacing: 100px 0;
 }

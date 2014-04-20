@@ -23,7 +23,7 @@
     
     <td>
       <div>
-        <a href="/OvirtEngineWeb/ReportsRedirectServlet">
+        <a title="{reportsNotSupportedYet}" href="#">
           <div class="obrand_report">
           </div>
         </a>
