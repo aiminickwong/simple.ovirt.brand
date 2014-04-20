@@ -35,12 +35,12 @@
 </div>
 <div class="obrand_template_resource">
     <div>
-      <a href="/eayunVirt/virt-viewer-x64-0.6.0.msi">
+      <a href="/eayunVirt/virt-viewer-x86-0.6.0.msi">
         {consoleClientResourceX86}
       </a>
     </div>
     <div>
-      <a href="/eayunVirt/virt-viewer-x86-0.6.0.msi">
+      <a href="/eayunVirt/virt-viewer-x64-0.6.0.msi">
         {consoleClientResourceX64}
       </a>
     </div>
