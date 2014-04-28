@@ -168,6 +168,11 @@ a:hover
 
 .obrand_template_resource
 {
+    background-image: url(images/welcome/downloads.png);
+    background-repeat: no-repeat;
+    float: right;
+    height: 78px;
+    width: 326px;
     position: absolute;
     top: 0;
     right: 0;
