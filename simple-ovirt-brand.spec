@@ -13,6 +13,8 @@ BuildArch:     noarch
 BuildRoot:     %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 #Requires:      
 Provides:      eayun.brand
+Conflicts:     eayun.brand.no.userportal
+Conflicts:     simple.ovirt.brand.no.userportal
 
 %description
 
