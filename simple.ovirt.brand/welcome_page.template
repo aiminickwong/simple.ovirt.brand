@@ -2,14 +2,14 @@
 
 <table align="center">
 <tr>
-    <td>
+   <td>
       <div>
         <a href="/UserPortal/org.ovirt.engine.ui.userportal.UserPortal/UserPortal.html?locale={userLocale}">
           <div class="obrand_user">
           </div>
         </a>
       </div>
-    </td>		 
+    </td>
 
     <td>
       <div>
