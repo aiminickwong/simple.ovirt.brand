@@ -2,7 +2,7 @@
 
 Name:          simple.ovirt.brand
 Version:       0.0.1
-Release:        5%{?dist}
+Release:        6%{?dist}
 
 Summary:       oVirt Virtualization UI simple branding 
 Group:         Documentation
@@ -43,6 +43,9 @@ unlink /etc/ovirt-engine/branding/00-ovirt.brand
 %{ovirt_brand_dir}/simple.ovirt.brand/*
 
 %changelog
+* Sun May 22 2014 Pan Liyang <walteryang47@gmail.com> 0.0.1-6
+- add conflicts package name.
+
 * Sun Apr 27 2014 Li jiansheng <lijiangsheng1@gmail.com> 0.0.1-4
 - change eayun documents url.
 - add post install script for unlink ovirt default brand.
