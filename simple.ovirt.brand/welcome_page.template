@@ -2,9 +2,9 @@
 
 <table align="center">
 <tr>
-   <td>
+    <td>
       <div>
-        <a href="/UserPortal/org.ovirt.engine.ui.userportal.UserPortal/UserPortal.html?locale={userLocale}">
+        <a href="#">
           <div class="obrand_user">
           </div>
         </a>
@@ -30,7 +30,7 @@
     </td>
 
 </tr>
-</table>  
+</table> 
 </div>
 <a class="obrand_template_resource" href="/eayunVirt">
 </a>
