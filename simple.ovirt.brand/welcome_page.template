@@ -4,7 +4,7 @@
 <tr>
     <td>
       <div>
-        <a href="#">
+        <a href="/UserPortal/org.ovirt.engine.ui.userportal.UserPortal/UserPortal.html?locale={userLocale}">
           <div class="obrand_user">
           </div>
         </a>

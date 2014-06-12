@@ -6,7 +6,7 @@ login window. This is common between the user portal and webadmin
 interface */
 .obrand_loginPopupHeaderLogoImage {
 
-    background-image: url(images/login/login_page_header_logo.png);
+    background-image: url("images/sugon/login_page_header_logo.gif");
     width: 83px;
     height: 44px;
     border: 0px;

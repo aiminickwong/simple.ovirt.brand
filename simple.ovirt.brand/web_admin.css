@@ -4,7 +4,7 @@
 These classes allow you to customize the header at the top of the screen */
 .obrand_logo {
     float: left;
-    background-image: url(images/logo.png);
+    background-image: url("images/sugon/newlogo2.png");
     background-repeat: no-repeat;
     background-position: left;
     width: 255px;
