@@ -1,77 +1,142 @@
-﻿.login-pf {
-    color: #fff;
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+﻿/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 100px;
+  background-image: url('images/background-official.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+  background-color: transparent;
+  color: #fff;
 }
 
-.container {
-    padding-top: 10px !important;
+.container-footer {
+  padding: 20px 30px 16px 30px;
+  background-color: rgba(51,51,51,0.9);
 }
 
-.label-default {
-    background-color: inherit;
+.logo-descr-container{
+  /*display: inline;*/
 }
 
-.login-link:hover, login-link:focus {
-    color: #00618a;
-    text-decoration: underline;
+.logo-descr-container > .media > .media-logo{
+  margin-right: 25px;
 }
 
-.login-link {
-    color: #0099d3;
+.product-description {
+  font-size: 23px;
+  font-weight: bold;
+  font-family: serif;
+  border-left: 1px solid #434343;
+  padding-left: 25px;
+  line-height: 1.42857143;
 }
 
-.login-error {
-    color: #b94a48;
-    background-color: inherit;
-    border-color: #b94a48;
+.product-description .description{
+  margin: 0px;
 }
 
-.login-message-error {
-    color: #b94a48;
-    background-color: inherit;
+.language-menu-container{
+  text-align: center;
+  margin-top:20px;
 }
 
-.welcome-title-wrapper {
-    padding-bottom: 20px;
+.language-menu-container .btn-group .btn-hidden{
+  background-color: transparent;
+  border: none;
+  color: #fff;
 }
 
-.welcome-title {
-    font-size: 18px;
+.language-menu-container .btn-group .btn-hidden:focus{
+  outline-color: transparent;
 }
 
-.version-text {
-    margin-left: 30px;
-    color: #bbb;
+.dropup select{
+  border: none;
+  color: #000;
 }
 
-.welcome-section-title {
-    padding-bottom: 7px;
-    font-weight: 700;
-    font-size: 14px;
+
+
+/* Navbar styles
+-------------------------------------------------- */
+body .navbar {
+  border: none;
+  background-color: transparent;
+  height: 80px;
 }
 
-.welcome-link {
-    font-size: 14px;
+.download-link-container {
+  background-color: #ffb400;
+  padding: 20px 25px;
+  min-width: 280px;
 }
 
-.locale-div {
-    padding-top: 20px;
+.download-link:hover {
+  text-decoration:none;
 }
 
-#well-error {
-    color: #b94a48;
-    background-color: inherit;
-    border-color: #b94a48;
+.download-text-container h4 {
+  margin: 0px;
+  color: #000;
+  font-weight: bold;
 }
 
-#well-error-label {
-    font-size: 14px;
-    color: #b94a48;
-    background-color: inherit;
+.download-text-container p {
+  margin: 0px;
+  color: #000;
 }
 
-#link-404 {
-    font-size: 13px;
-    display: block;
-    margin-bottom: 75px;
+/* Page Content
+-------------------------------------------------- */
+
+.menu-container {
+  margin-top: 10%;
+  background-color: rgba(129,129,129,0.8);
 }
+
+.portal-container {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  margin: 60px 0px;
+}
+
+.user-portal{
+  background-color: #00b1a9 ;
+}
+
+.management-portal{
+  background-color: #00b5ee ;
+}
+
+.report-portal{
+  background-color: #65b72f ;
+}
+
+.portal-name{
+  margin-top: 15px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.portal-link:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+.portal-link-container{
+  padding: 0px 40px;
+}
+
