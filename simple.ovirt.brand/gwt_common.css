@@ -22,20 +22,13 @@ screen */
 .gwt-DialogBox .dialogBottomRight {
         background: url(images/dialog/panel_edge_BR.png) !important;
 }
+.gwt-DialogBox .dialogBottomRight.resize {
+        background: url(images/dialog/panel_edge_BR_resize.png) !important;
+}
 
 .gwt-DialogBox .dialogMiddleLeft {
         background: url(images/dialog/panel_edge_L.png) !important;
 }
 .gwt-DialogBox .dialogMiddleRight {
         background: url(images/dialog/panel_edge_R.png) !important;
-}
-
-.gwt-TextBox { 
-        color: #333333;
-        font-size: 13px;
-        padding: 0 5px;
-        font-family: Verdana,sans-serif;
-        line-height: 30px;
-        text-align: left;
-        border-radius: 10px;
 }

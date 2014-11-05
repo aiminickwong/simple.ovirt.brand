@@ -1,183 +1,77 @@
-﻿html, body
-{
-	margin: 0;
-	padding: 0;
-	height: 100%;
-	background-image: url(images/welcome/welcome_background.png);
-	background-size: auto 100%;
-	color: #111111;
+﻿.login-pf {
+    color: #fff;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
-
-
-.obrand_section_header {
-	height: 42px;
-	color: #FFFFFF;
-	background-color: #669900;
-	text-align: left;
-	padding: 4px 6px 4px 4px;
-	
-	font-family: Verdana;
-	font-size: 16px;
-	font-weight: bold;
+.container {
+    padding-top: 10px !important;
 }
 
-.obrand_left
-{
-	background-image: url(images/welcome/logo.png);
-	background-repeat: no-repeat;
-	float: left;
-	height: 0px;
-	width: 820px;
-	margin-top: 0px;
+.label-default {
+    background-color: inherit;
 }
 
-.obrand_center
-{
-	background-image: url(images/welcome/bg_head.gif);
-	background-repeat: repeat-x;
-	height: 0px;
+.login-link:hover, login-link:focus {
+    color: #00618a;
+    text-decoration: underline;
 }
 
-.obrand_header_nav
-{
-	padding-top: 22px;
-	padding-left: 90px;
-	width: 250px;
+.login-link {
+    color: #0099d3;
 }
 
-.obrand_main
-{
-    
-	width: 100%;
-	text-align: center;
-	font-family: Verdana;
-	font-size: 12px;
-	margin:auto;
-	position: absolute;
-	height: 56%;
-	line-height: 18pt ;
+.login-error {
+    color: #b94a48;
+    background-color: inherit;
+    border-color: #b94a48;
 }
 
-a, a:visited
-{
-	text-decoration: none;
-	color: #111111;
+.login-message-error {
+    color: #b94a48;
+    background-color: inherit;
 }
 
-a:hover
-{
-	text-decoration: underline;
-	font-weight: bold;
+.welcome-title-wrapper {
+    padding-bottom: 20px;
 }
 
-.obrand_welcome
-{
-	font-family: Verdana;
-	font-size: 16px;
-	line-height:0;
-	font-size:0;
-	overflow:hidden;
+.welcome-title {
+    font-size: 18px;
 }
 
-.obrand_warningMessage
-{
-	color: #cc0000;
-	font-family: Verdana;
-	font-size: 12px;
+.version-text {
+    margin-left: 30px;
+    color: #bbb;
 }
 
-/*The locale selection box.*/
-.obrand_locale_select_panel {
-    background-image: none;
-    position: absolute;
-    float: right;
-    bottom: -150px;
-    right: 0;
-    overflow: hidden;
+.welcome-section-title {
+    padding-bottom: 7px;
+    font-weight: 700;
+    font-size: 14px;
 }
 
-.obrand_locale_list_box {
-   background: none repeat scroll 0 0 transparent;
-   border-width: 0;
-   color: gray;
-   font-size: 16px;
-   opacity: 0;
-   position: relative;
-   top: 24px;
-   width: 170px;
+.welcome-link {
+    font-size: 14px;
 }
 
-.obrand_locale_selected {
-    background: url("images/triangle_down_gray.gif") no-repeat scroll right center;
-    color: white;
-    font-size: 16px;
-    padding-right: 15px;
-    text-align: right;
-    width: 150px;
+.locale-div {
+    padding-top: 20px;
 }
 
-.obrand_button
-{
-	background-image: url(images/welcome/logo.png);
-	background-repeat: no-repeat;
-	float: left;
-	height: 200px;
-	width: 300px;
-	margin-top: 0px;
+#well-error {
+    color: #b94a48;
+    background-color: inherit;
+    border-color: #b94a48;
 }
 
-.obrand_admin
-{
-	background-image: url(images/welcome/admin.png);
-	background-repeat: no-repeat;
-	float: left;
-	height: 240px;
-	width: 303px;
-	margin-top: 0px;
+#well-error-label {
+    font-size: 14px;
+    color: #b94a48;
+    background-color: inherit;
 }
 
-.obrand_user
-{
-	background-image: url(images/welcome/user.png);
-	background-repeat: no-repeat;
-	float: left;
-	height: 240px;
-	width: 303px;
-	margin-top: 0px;
-}
-
-.obrand_report
-{
-	background-image: url(images/welcome/report.png);
-	background-repeat: no-repeat;
-	float: left;
-	height: 240px;
-	width: 303px;
-	margin-top: 0px;
-	display: inline;
-	position: relative;
-}
-
-.obrand_template
-{
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-}
-
-.obrand_template_resource
-{
-    background-image: url(images/welcome/downloads.png);
-    background-repeat: no-repeat;
-    float: right;
-    height: 78px;
-    width: 326px;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-table {
-  border-spacing: 100px 0;
+#link-404 {
+    font-size: 13px;
+    display: block;
+    margin-bottom: 75px;
 }

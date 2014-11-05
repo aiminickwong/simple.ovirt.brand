@@ -1,37 +1,10 @@
-<div class="obrand_template">
-
-<table align="center">
-  <tr>
-
-    <td>
-      <div>
-        <a href="/UserPortal/org.ovirt.engine.ui.userportal.UserPortal/UserPortal.html?locale={userLocale}">
-          <div class="obrand_user">
-          </div>
-        </a>
-      </div>
-    </td>
-
-    <td>
-      <div>
-        <a href="/webadmin/webadmin/WebAdmin.html?locale={userLocale}">
-          <div class="obrand_admin">
-          </div>
-        </a>
-      </div>
-    </td>
-    
-    <td>
-      <div>
-        <a title="{reportsNotSupportedYet}" href="#">
-          <div class="obrand_report">
-          </div>
-        </a>
-      </div>
-    </td>
-
-</tr>
-</table>  
+<div class="col-sm-3 col-md-3 col-lg-3 login">
+    <div class="welcome-section-title">{portal_title}</div>
+    <div class="welcome-link"><a id="WelcomePage_userportal" href="userportal/?locale={userLocale}">{portal_user_portal}</a></div>
+    <div class="welcome-link"><a id="WelcomePage_webadmin" href="webadmin/?locale={userLocale}">{portal_admin}</a></div>
+    <div class="welcome-link"><a id="WelcomePage_reports" href="services/reports-redirect">{portal_reports}</a></div>
 </div>
-<a class="obrand_template_resource" href="/eayunVirt">
-</a>
+<div class="col-sm-4 col-md-4 col-lg-3 details">
+    <div class="welcome-section-title"><span class="">{downloads_title}</div>
+    <div class="welcome-link"><a id="WelcomePage_ccr" href="{console_client_resources_url}" target="_blank">{console_client_resources}</a></div>
+</div>
