@@ -1,8 +1,8 @@
 %define ovirt_brand_dir /usr/share/ovirt-engine/branding
 
 Name:          simple.ovirt.brand
-Version:       0.0.1
-Release:        6%{?dist}
+Version:       0.0.2
+Release:        1%{?dist}
 
 Summary:       oVirt Virtualization UI simple branding 
 Group:         Documentation
