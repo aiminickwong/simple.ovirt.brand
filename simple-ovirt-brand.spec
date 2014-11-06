@@ -36,6 +36,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %post
 ln -s /usr/share/ovirt-engine/branding/simple.ovirt.brand /etc/ovirt-engine/branding/01-simple.ovirt.brand
+ln -s /usr/share/patternfly1/resources /usr/share/ovirt-engine/branding/simple.ovirt.brand/patternfly
 unlink /etc/ovirt-engine/branding/00-ovirt.brand
 
 %files
