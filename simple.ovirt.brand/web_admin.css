@@ -233,3 +233,8 @@ body {
 .simple-checkbox {
   padding-right: 10px;
 }
+
+.actionPanelPopupMenuBar {
+    position: relative;
+    z-index: 99999;
+}
