@@ -2,7 +2,7 @@
 
 Name:          simple.ovirt.brand
 Version:       0.0.2
-Release:        2%{?dist}
+Release:        3%{?dist}
 
 Summary:       oVirt Virtualization UI simple branding 
 Group:         Documentation
